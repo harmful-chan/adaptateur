@@ -13,7 +13,6 @@ public interface IDailyService {
     public void BuildCompanyData(Collection<Shop> shops, LocalDate date, Collection<User> users, Collection<Recharge> recharges, Collection<DailyDetail> dailyDetails, String filename);
     public void BuildOperData(Collection<Shop> shops, LocalDate date, Collection<User> users, Collection<Recharge> recharges, Collection<DailyDetail> dailyDetails, String filename);
 
-
     public Pair<Integer, Integer> listMissingStores(Collection<Shop> shops, LocalDate date, Collection<DailyDetail> dailyDetails);
     public void buildOrders(Collection<Shop> shops,  LocalDate date, Collection<DailyDetail> dailyDetails, String filename);
 }

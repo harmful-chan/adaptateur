@@ -1,4 +1,4 @@
-package org.bfqq.adaptateur.common.services;
+package org.bfqq.adaptateur.common.services.impl;
 
 import org.apache.commons.io.FilenameUtils;
 import org.apache.commons.lang3.tuple.Pair;
@@ -6,6 +6,7 @@ import org.bfqq.adaptateur.common.models.daily.*;
 import org.bfqq.adaptateur.common.models.manage.Recharge;
 import org.bfqq.adaptateur.common.models.manage.User;
 import org.bfqq.adaptateur.common.models.sheet.Shop;
+import org.bfqq.adaptateur.common.services.IDailyService;
 
 import java.io.File;
 import java.io.FileWriter;
@@ -23,7 +24,7 @@ import java.time.format.DateTimeFormatter;
 import java.util.*;
 import java.util.stream.Collectors;
 
-public class DailyService implements IDailyService {
+public class DailyServiceImpl implements IDailyService {
 
     // region buildCompanyData
     private Map<DisputeTypes, List<Dispute>> classifiedDispute(Collection<Dispute> disputes) {

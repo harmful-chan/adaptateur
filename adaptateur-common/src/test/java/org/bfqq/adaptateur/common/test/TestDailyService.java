@@ -9,7 +9,7 @@ import org.bfqq.adaptateur.common.models.daily.DailyDetail;
 import org.bfqq.adaptateur.common.models.manage.Recharge;
 import org.bfqq.adaptateur.common.models.manage.User;
 import org.bfqq.adaptateur.common.models.sheet.Shop;
-import org.bfqq.adaptateur.common.services.DailyService;
+import org.bfqq.adaptateur.common.services.impl.DailyServiceImpl;
 import org.bfqq.adaptateur.common.utils.DirUtil;
 import org.junit.BeforeClass;
 import org.junit.Test;
@@ -27,17 +27,17 @@ import java.util.Arrays;
 import java.util.List;
 
 @RunWith(JUnit4.class)
-public class TestDailySetvice {
+public class TestDailyService {
 
     static ManageClient manageClient = null;
     static SheetClient sheetClient = null;
 
-    static DailyService dailyService = null;
+    static DailyServiceImpl dailyService = null;
     @BeforeClass
     public static void beforeClass(){
         manageClient = new ManageClient();
         sheetClient = new SheetClient();
-        dailyService = new DailyService();
+        dailyService = new DailyServiceImpl();
     }
 
 
