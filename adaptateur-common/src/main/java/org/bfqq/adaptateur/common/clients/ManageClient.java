@@ -38,6 +38,46 @@ public class ManageClient {
 
             default: break;
         }
+
+//        if (url.startsWith("http") && !url.startsWith("https")){
+//            // Create a trust manager that does not validate certificate chains
+//            final TrustManager[] trustAllCerts = new TrustManager[] {
+//                    new X509TrustManager() {
+//                        @Override
+//                        public void checkClientTrusted(java.security.cert.X509Certificate[] chain, String authType) throws CertificateException {
+//                        }
+//
+//                        @Override
+//                        public void checkServerTrusted(java.security.cert.X509Certificate[] chain, String authType) throws CertificateException {
+//                        }
+//
+//                        @Override
+//                        public java.security.cert.X509Certificate[] getAcceptedIssuers() {
+//                            return new java.security.cert.X509Certificate[]{};
+//                        }
+//                    }
+//            };
+//            // Install the all-trusting trust manager
+//            final SSLContext sslContext;
+//            try {
+//                sslContext = SSLContext.getInstance("SSL");
+//                sslContext.init(null, trustAllCerts, new java.security.SecureRandom());
+//            } catch (NoSuchAlgorithmException e) {
+//                throw new RuntimeException(e);
+//            } catch (KeyManagementException e) {
+//                throw new RuntimeException(e);
+//            }
+//            // Create an ssl socket factory with our all-trusting manager
+//            final SSLSocketFactory sslSocketFactory = sslContext.getSocketFactory();
+//            builder.sslSocketFactory(sslSocketFactory);
+//            builder.hostnameVerifier(new HostnameVerifier() {
+//                @Override
+//                public boolean verify(String hostname, SSLSession session) {
+//                    return true;
+//                }
+//            });
+//        }
+
         builder.cookieJar(new CookieJar() {
             @Override
             public void saveFromResponse(@NotNull HttpUrl httpUrl, @NotNull List<Cookie> list) {
@@ -62,18 +102,6 @@ public class ManageClient {
                 .header("Accept-Language", "zh-CN,zh;q=0.9,en-US;q=0.8,en;q=0.7")
                 .header("x-requested-with", "XMLHttpRequest")
                 .header("dnt", "1");
-
-
-//        // 设置Cookies
-//        if(dicc.containsKey(new Uri(url).getHost())){
-//            StringBuilder str = new StringBuilder();
-//            for (Map.Entry<String, String> kv : dicc.get(new Uri(url).getHost()).entrySet()){
-//                str.append(kv.getKey()).append("=").append(kv.getValue()).append(";");
-//            }
-//            header.header("Cookie", str.toString());
-//        }
-
-
         // POST 请求设置请求体
         if("POST".equals(method) && body !=null && !body.trim().isEmpty()){
             RequestBody requestBody = RequestBody.create(MediaType.parse("application/x-www-form-urlencoded"), body);
@@ -82,21 +110,6 @@ public class ManageClient {
         Request request = header.build();
 
         Response response = client.newCall(request).execute();
-
-//        // 获取Cookies
-//        if (response.isSuccessful()) {
-//            List<String> headers = response.headers("Set-Cookie");
-//            for (String str : headers) {
-//                Map<String, String> sm = dicc.get(new Uri(url).getHost());
-//                if(sm == null){
-//                    dicc.put(new Uri(url).getHost(), new HashMap<>());
-//                    sm = dicc.get(new Uri(url).getHost());
-//                }
-//                String key = str.split(";")[0].split("=")[0];
-//                String value = str.split(";")[0].split("=")[1];
-//                sm.put(key, value);
-//            }
-//        }
         String responseBody = response.body().string();
 
 
@@ -139,7 +152,7 @@ public class ManageClient {
             JsonNode jo = objectMapper.readTree(raw);
 
             // 登录sass
-            String url = jo.get("data").asText();
+            String url = jo.get("data").asText().replace("https", "http");
             request(1,"GET", url, null);
 
             // 登录用户

@@ -1,0 +1,344 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="ALL" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="ffaba7e8-79d6-4904-88c6-42cc08dcad45" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/adaptateur-common/src/main/java/org/bfqq/adaptateur/common/clients/ManageClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/adaptateur-common/src/main/java/org/bfqq/adaptateur/common/clients/ManageClient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/adaptateur-common/src/main/resources/test/test-capitalize.csv" beforeDir="false" afterPath="$PROJECT_DIR$/adaptateur-common/src/main/resources/test/test-capitalize.csv" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeInsightWorkspaceSettings">
+    <option name="optimizeImportsOnTheFly" value="true" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+        <option value="Enum" />
+        <option value="Interface" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="KubernetesApiProvider">{
+  &quot;isMigrated&quot;: true
+}</component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="D:\Program Files\apache-maven-3.6.3\lib" />
+        <option name="mavenHome" value="D:\Program Files\apache-maven-3.6.3" />
+        <option name="useMavenConfig" value="false" />
+        <option name="userSettingsFile" value="D:\Program Files\apache-maven-3.6.3\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 3
+}</component>
+  <component name="ProjectId" id="2ftnDL7346KNcJWzgjtvAr31mLV" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;Downloaded.Files.Path.Enabled&quot;: &quot;false&quot;,
+    &quot;JUnit.Test.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.TestAdaptateurManage.testDeductionAndShipmentsAndStatement (1).executor&quot;: &quot;Debug&quot;,
+    &quot;JUnit.TestAdaptateurManage.testDeductionAndShipmentsAndStatement.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.TestAdaptateurManage.testListAllRecharge.executor&quot;: &quot;Debug&quot;,
+    &quot;JUnit.TestAdaptateurManage.testListDebitRecord.executor&quot;: &quot;Debug&quot;,
+    &quot;JUnit.TestAdaptateurManage.testListOrder.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.TestAdaptateurManage.testListUser.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.TestAdaptateurManage.testc1.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.TestDailySetvice.test1.executor&quot;: &quot;Debug&quot;,
+    &quot;JUnit.TestDeduction.executor&quot;: &quot;Debug&quot;,
+    &quot;JUnit.TestDeduction.testDeductionAndShipmentsAndStatement (1).executor&quot;: &quot;Debug&quot;,
+    &quot;JUnit.TestDeduction.testDeductionAndShipmentsAndStatement.executor&quot;: &quot;Debug&quot;,
+    &quot;JUnit.TestDeductionAndShip.testDeductionAndShip.executor&quot;: &quot;Debug&quot;,
+    &quot;JUnit.TestDeductionAndShipmentsAndStatement.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.TestDeductionAndShipmentsAndStatement.testDeductionAndShipmentsAndStatement.executor&quot;: &quot;Debug&quot;,
+    &quot;JUnit.TestManageService.executor&quot;: &quot;Debug&quot;,
+    &quot;JUnit.TestManageService.testGetHello.[1] clientId=5377235, orderId=8188159653349707, tracking=NC596337232BR, carrier=CORREIOS_L_BR.executor&quot;: &quot;Debug&quot;,
+    &quot;JUnit.TestManageService.testGetHello.executor&quot;: &quot;Debug&quot;,
+    &quot;JUnit.TestSheelClient.executor&quot;: &quot;Debug&quot;,
+    &quot;JUnit.TestSheelClient.test.executor&quot;: &quot;Debug&quot;,
+    &quot;JUnit.TestSheetClient.testReadDaily.executor&quot;: &quot;Debug&quot;,
+    &quot;JUnit.TestSheetClient.testReadPurchaseOrder.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.TestSheetClient.testReadShopCatalog.executor&quot;: &quot;Debug&quot;,
+    &quot;JUnit.TestSheetClient.testSheet.executor&quot;: &quot;Run&quot;,
+    &quot;Maven.adaptateur-common [clean].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.adaptateur-common [compile].executor&quot;: &quot;Run&quot;,
+    &quot;Repository.Attach.Annotations&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.JavaDocs&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.Sources&quot;: &quot;false&quot;,
+    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
+    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
+    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
+    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;Spring Boot.AdaptateurApiApplication (1).executor&quot;: &quot;Debug&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;1.8&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/我的坚果云/数据采集/resources/adaptateur/adaptateur-common/src/main/resources/test/数据采集&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;onboarding.tips.debug.path&quot;: &quot;D:/我的坚果云/数据采集/resources/adaptateur/adaptateur-api/src/main/java/org/bfqq/Main.java&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.build.tools.auto.reload&quot;: &quot;ALL&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\我的坚果云\数据采集\resources\adaptateur\adaptateur-common\src\main\resources\test\数据采集" />
+      <recent name="D:\我的坚果云\数据采集\resources\adaptateur\adaptateur-common\src\main\resources" />
+      <recent name="D:\我的坚果云\数据采集\resources\adaptateur\adaptateur-common\src\main\resources\test" />
+      <recent name="D:\我的坚果云\数据采集\resources\adaptateur\adaptateur-common\src\test" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\我的坚果云\数据采集\resources\adaptateur\adaptateur-common\src\main\resources\test" />
+      <recent name="D:\我的坚果云\数据采集\resources\adaptateur\adaptateur-api\src\main\resources" />
+      <recent name="D:\我的坚果云\数据采集\resources\adaptateur\adaptateur-common\src\main\resources" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.TestDeductionAndShipmentsAndStatement.testDeductionAndShipmentsAndStatement">
+    <configuration name="Test" type="JUnit" factoryName="JUnit">
+      <module name="adaptateur-common" />
+      <option name="PACKAGE_NAME" value="org.bfqq.common" />
+      <option name="MAIN_CLASS_NAME" value="org.bfqq.common.TestAdaptateurManage" />
+      <option name="METHOD_NAME" value="" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestDailyService.test1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="adaptateur-common" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.bfqq.adaptateur.common.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.bfqq.adaptateur.common.test" />
+      <option name="MAIN_CLASS_NAME" value="org.bfqq.adaptateur.common.test.TestDailyService" />
+      <option name="METHOD_NAME" value="test1" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestDeductionAndShipmentsAndStatement.testDeductionAndShipmentsAndStatement" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="adaptateur-common" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.bfqq.adaptateur.common.test.danger.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.bfqq.adaptateur.common.test.danger" />
+      <option name="MAIN_CLASS_NAME" value="org.bfqq.adaptateur.common.test.danger.TestDeductionAndShipmentsAndStatement" />
+      <option name="METHOD_NAME" value="testDeductionAndShipmentsAndStatement" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestSheetClient.testReadDaily" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="adaptateur-common" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.bfqq.adaptateur.common.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.bfqq.adaptateur.common.test" />
+      <option name="MAIN_CLASS_NAME" value="org.bfqq.adaptateur.common.test.TestSheetClient" />
+      <option name="METHOD_NAME" value="testReadDaily" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestSheetClient.testReadPurchaseOrder" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="adaptateur-common" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.bfqq.adaptateur.common.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.bfqq.adaptateur.common.test" />
+      <option name="MAIN_CLASS_NAME" value="org.bfqq.adaptateur.common.test.TestSheetClient" />
+      <option name="METHOD_NAME" value="testReadPurchaseOrder" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestSheetClient.testReadShopCatalog" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="adaptateur-common" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.bfqq.adaptateur.common.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.bfqq.adaptateur.common.test" />
+      <option name="MAIN_CLASS_NAME" value="org.bfqq.adaptateur.common.test.TestSheetClient" />
+      <option name="METHOD_NAME" value="testReadShopCatalog" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AdaptateurApiApplication (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="adaptateur-api" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="org.bfqq.adaptateur.api.AdaptateurApiApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AdaptateurApiApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="adaptateur-api" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="org.bfqq.AdaptateurApiApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.TestDeductionAndShipmentsAndStatement.testDeductionAndShipmentsAndStatement" />
+        <item itemvalue="JUnit.TestDailyService.test1" />
+        <item itemvalue="JUnit.TestSheetClient.testReadDaily" />
+        <item itemvalue="JUnit.TestSheetClient.testReadShopCatalog" />
+        <item itemvalue="JUnit.TestSheetClient.testReadPurchaseOrder" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="ffaba7e8-79d6-4904-88c6-42cc08dcad45" name="Changes" comment="" />
+      <created>1714629121188</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1714629121188</updated>
+      <workItem from="1714629122194" duration="124000" />
+      <workItem from="1714629287075" duration="24621000" />
+      <workItem from="1714737026288" duration="26986000" />
+      <workItem from="1714810606259" duration="309000" />
+      <workItem from="1714977334990" duration="3248000" />
+      <workItem from="1714988585434" duration="11519000" />
+      <workItem from="1715071904759" duration="14473000" />
+      <workItem from="1715161529580" duration="7371000" />
+      <workItem from="1715268953513" duration="3546000" />
+      <workItem from="1715326841810" duration="8536000" />
+      <workItem from="1715343171500" duration="7801000" />
+      <workItem from="1715407549049" duration="35309000" />
+      <workItem from="1715517086273" duration="679000" />
+      <workItem from="1715605029210" duration="12462000" />
+      <workItem from="1715772335118" duration="2413000" />
+      <workItem from="1715865619962" duration="2894000" />
+      <workItem from="1715868631529" duration="1000" />
+      <workItem from="1715950786590" duration="4102000" />
+      <workItem from="1715962060172" duration="392000" />
+      <workItem from="1716186200020" duration="612000" />
+      <workItem from="1716189847489" duration="2545000" />
+      <workItem from="1716196855643" duration="873000" />
+      <workItem from="1716198469667" duration="416000" />
+      <workItem from="1716202303701" duration="9000" />
+      <workItem from="1716278170633" duration="2963000" />
+      <workItem from="1716452745553" duration="1642000" />
+      <workItem from="1716455020061" duration="7020000" />
+      <workItem from="1716487396147" duration="4000" />
+      <workItem from="1716765305743" duration="1764000" />
+      <workItem from="1716767089427" duration="177000" />
+      <workItem from="1716767274477" duration="1057000" />
+      <workItem from="1716798722706" duration="1555000" />
+      <workItem from="1716957351187" duration="20000" />
+      <workItem from="1717042310646" duration="4392000" />
+      <workItem from="1717136464968" duration="1617000" />
+      <workItem from="1717140663525" duration="1708000" />
+      <workItem from="1717257778316" duration="15000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/bfqq/Main.java</url>
+          <line>13</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/adaptateur-common/src/test/java/org/bfqq/adaptateur/common/test/danger/TestDeductionAndShipmentsAndStatement.java</url>
+          <line>29</line>
+          <option name="timeStamp" value="14" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/adaptateur-common/src/main/java/org/bfqq/adaptateur/common/clients/ManageClient.java</url>
+          <line>158</line>
+          <option name="timeStamp" value="20" />
+        </line-breakpoint>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="java.lang.NullPointerException" package="java.lang" />
+          <option name="timeStamp" value="13" />
+        </breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+    <pin-to-top-manager>
+      <pinned-members>
+        <PinnedItemInfo parentTag="okhttp3.Response" memberName="body" />
+        <PinnedItemInfo parentTag="org.bfqq.common.clients.ManageClient" memberName="dicc" />
+        <PinnedItemInfo parentTag="java.lang.String" memberName="value" />
+        <PinnedItemInfo parentTag="okhttp3.Request$Builder" memberName="url" />
+        <PinnedItemInfo parentTag="okhttp3.Request" memberName="headers" />
+      </pinned-members>
+    </pin-to-top-manager>
+    <watches-manager>
+      <configuration name="JUnit">
+        <watch expression="orderDic" />
+      </configuration>
+    </watches-manager>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/adaptateur$TestManageService_testGetHello.ic" NAME="TestManageService.testGetHello Coverage Results" MODIFIED="1715005406702" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>org.bfqq.adaptateur.api.test.*</FILTER>
+    </SUITE>
+  </component>
+</project>
